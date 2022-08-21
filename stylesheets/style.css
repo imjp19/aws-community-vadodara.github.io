@@ -2301,6 +2301,11 @@ ul.circle li {
   background-image: url(../images/vols/vrajesh-jayswal.jpeg);
 }
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Sanket"] .img {
+  background-image: url(../images/vols/sanket.jpeg);
+}
+
+
 /* line 1056, ../sass/shared/_home.scss */
 #page .section-7 {
   margin: -50px auto 100px;
