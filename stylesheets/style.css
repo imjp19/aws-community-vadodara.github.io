@@ -2630,6 +2630,23 @@ ul.circle li {
   transform-origin: top center;
 }
 
+#page .section-tickets .card.comming-soon:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25px;
+  bottom: 0;
+  height: 125px;
+  width: 125px;
+  background: url(../images/coming-soon-stay-tuned.png) center no-repeat;
+  background-size: 100%;
+  margin: auto;
+  animation: swing 2s infinite alternate ease-in-out;
+  transform-origin: top center;
+}
+
+
 @keyframes swing {
   from {
     transform: rotate(5deg);
