@@ -795,7 +795,7 @@ ul.circle li {
   display: flex;
   flex-direction: column;
   text-align: left;
-  flex: 0 0 21.25%;
+  flex: 0 0 42.5%;
 }
 /* line 454, ../sass/shared/_site.scss */
 .table .thead .tr .td > div,
@@ -1949,90 +1949,11 @@ ul.circle li {
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).coming-soon {
   background-image: url(../images/coming-soon.png);
 }
-/* line 709, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).jetbrains {
-  background-image: url(../images/spons/jetbrains.jpg);
+
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).gsfcuni {
+  background-image: url(../images/spons/gsfclogo.png);
 }
-/* line 712, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).freshworks {
-  background-image: url(../images/spons/freshworks.jpg);
-}
-/* line 715, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).powerup {
-  background-image: url(../images/spons/powerup.jpg);
-}
-/* line 718, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).tensult {
-  background-image: url(../images/spons/tensult.jpg);
-}
-/* line 721, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).cloudyuga {
-  background-image: url(../images/spons/cloudyuga.jpg);
-}
-/* line 724, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).wwc {
-  background-image: url(../images/spons/wwc.jpg);
-}
-/* line 727, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).wheelsbox {
-  background-image: url(../images/spons/wheelsbox.jpg);
-}
-/* line 730, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).epsilon {
-  background-image: url(../images/spons/epsilon.jpg);
-}
-/* line 733, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).indianstartups {
-  background-image: url(../images/spons/indianstartups.jpg);
-}
-/* line 736, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).elastic {
-  background-image: url(../images/spons/elastic.jpg);
-}
-/* line 739, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).postman {
-  background-image: url(../images/spons/postman.jpg);
-}
-/* line 742, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).sumologic {
-  background-image: url(../images/spons/sumologic.jpg);
-}
-/* line 745, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).wone {
-  background-image: url(../images/spons/wone.jpg);
-}
-/* line 748, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).konfhub {
-  background-image: url(../images/spons/konfhub.jpg);
-}
-/* line 751, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).fame {
-  background-image: url(../images/spons/fame.jpg);
-}
-/* line 754, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).fbdcblr {
-  background-image: url(../images/spons/fbdcblr.jpg);
-}
-/* line 757, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).alexa {
-  background-image: url(../images/spons/alexa.jpg);
-}
-/* line 760, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).goclouds {
-  background-image: url(../images/spons/goclouds.jpg);
-}
-/* line 763, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).knowledgehut {
-  background-image: url(../images/spons/knowledgehut.jpg);
-}
-/* line 766, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).efy {
-  background-image: url(../images/spons/efy.jpg);
-}
-/* line 769, ../sass/shared/_home.scss */
-#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).hasura {
-  background-image: url(../images/spons/hasura.jpg);
-}
+
 @media only screen and (min-width: 992px) {
   /* line 776, ../sass/shared/_home.scss */
   #page .section-5 .sponsors .cats .flex-it .f1:nth-child(6n) ~ .f1 {
@@ -2056,6 +1977,11 @@ ul.circle li {
 #page .section-8 h4 {
   color: #fff;
 }
+
+#page .section-4 h4 {
+  color: #fff;
+}
+
 @media only screen and (min-width: 992px) {
   /* line 798, ../sass/shared/_home.scss */
   #page .section-8 .announcing {
@@ -2331,6 +2257,10 @@ ul.circle li {
 
 #page .section-6 .volunteers .vl-i .person[data-fname="Dimple"] .img {
   background-image: url(../images/vols/dimple.jpeg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Ved"] .img {
+  background-image: url(../images/vols/ved.jpeg);
 }
 
 /* line 1056, ../sass/shared/_home.scss */
