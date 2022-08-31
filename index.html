@@ -157,13 +157,9 @@
           <li>
             <a href="#volunteers">Volunteers</a>
           </li>
-          
-          <!--
           <li>
             <a href="#cfp">CFP</a>
           </li>
-          -->
-          
           <li>
             <a href="#subscribe" id="sub-button" class="sub-button">
               <i class="icon large ion-md-notifications-outline"></i>
@@ -497,15 +493,20 @@
         </div>
       </div>
     </div>
-    <!-- <div class="section section-talk text-center hide" id="cfp">
+    <div class="section section-talk text-center" id="cfp">
       <div class="container">
         <img src="images/bgda.svg">
         <div class="cfp">
           <h4 class="main-heading-ttl">Submit a talk</h4>
           <h4>Thank you for the overwhelming response. CFPs are now closed.</h4>
+          <div class="buy-wrapper row flex-it">
+            <div class="f1">
+              <a class="button large submit-CFP-link">Submit CFP</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <div class="section section-3 inv" id="venues">
       <div class="container flex-it">
         <div class="left f1 flex-it">
@@ -1107,6 +1108,15 @@
           window.open("https://konfhub.com/acdv","_blank");
        });
     });
+
+    $(".submit-CFP-link").on("click", ()=> {
+       checkForUtmAvilableOrNot(decodeURIComponent(location.href)).then((formResolve) =>{
+          window.open("https://www.papercall.io/acdvad2022?"+formResolve, "_blank");
+       }).catch((fromReject) => {
+          window.open("https://www.papercall.io/acdvad2022","_blank");
+       });
+    });
+    
 
     let checkForUtmAvilableOrNot = (_currentUrl) => {
       return new Promise((resolve,reject) => {
