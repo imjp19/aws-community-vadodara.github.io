@@ -255,21 +255,24 @@
       <div class="container">
         <h4 class="main-heading-ttl text-center">Buy Tickets</h4>
         <div class="row flex-it">
-          <div class="col">
+          <div class="col-md-3 "></div>
+          <div class="col-md-3">
             <div class="card tick_conf with_icon border">
               <h4 class="heading-ttl">Conference</h4>
               <div class="bg_img"></div>
               <p>Gives you access to the conference on 5th November, 2022</p>
+              <button type="button" data-toggle="modal" data-target="#Conference_1">Details</button>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-3">
             <div class="card tick_work_1 with_icon border dark ">
               <h4 class="heading-ttl">Workshop</h4>
               <div class="bg_img"></div>
               <p>Gets you access to Workshop on 6th November, 2022</p>
-
+              <button type="button" data-toggle="modal" data-target="#workshop_2">Details</button>
             </div>
           </div>
+          <div class="col-md-3 "></div>
           <!--
           <div class="col-md-3 ">
             <div class="card tick_work_2 with_icon border sold">
@@ -279,6 +282,7 @@
             </div>
           </div>
           -->
+          <!--
           <div class="col">
             <div class="card combo with_icon border dark">
               <h4 class="heading-ttl">Combo</h4>
@@ -286,10 +290,53 @@
               <p>Gives you access to conference and any one workshop</p>
             </div>
           </div>
+          -->
         </div>
         <div class="buy-wrapper row flex-it">
           <div class="f1">
             <a class="button large buy-ticket-link">Buy Tickets</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Conference_1" class="modal fade fillo" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="heading-ttl">
+              <p>Conference Pass includes follwing</p>
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="wid">
+              <div class="block">
+                <ul>
+                  <li>Entry to AWS community day events</li>
+                  <li>Welcome Kit</li>
+                  <li>Morning breakfast</li>
+                  <li>Afternoon lunch</li>
+                  <li>Evening hi-tea</li>
+                  <li>Eligible for early bird goodies on event days</li>
+                  <li>Attend any sessions provided seats available</li>
+                  <li>Tech Expo booth visits</li>
+                  <li>Networking to other peers at event day</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer clearTopBoarder">
+            <div class="row">
+              <div class="col-md-1">
+                
+              </div>
+              <div class="col-md-2">
+                
+              </div>
+              
+            </div>
+            <hr>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -351,154 +398,47 @@
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="heading-ttl">
-              <p>Deep Learning on AWS</p>
+              <p>Workshop Pass includes follwing</p>
             </h4>
           </div>
-        <div class="modal-body">
-          <p>Learn about cloud-based Deep Learning solutions on AWS</p>
-          <p class="heading-ttl small-head">Description</p>
-          <p>
-            In this one-day course, you will learn cloud-based deep learning (DL)
-            solutions on the AWS platform. You will learn how to run your models on the
-            cloud using Amazon EC2‒based deep learning Amazon Machine Image (AMI) and
-            Apache MXNet on AWS frameworks. In addition, you will learn how to use
-            Amazon SageMaker and deploy your deep learning models using AWS services
-            like AWS Lambda and Amazon Elastic Container Service (Amazon ECS)—all while
-            designing intelligent systems on AWS.
-          </p>
-          <p class="heading-ttl small-head">Format:</p>
-          <p>
-            Mix of class-room training and hands-on workshop (yes, do bring your laptops). The timings are as below:
-            <p>09.30am - 10.00am: Registration cum installation & setup </p>
-            <p>10.00am - 11.30pm: Session </p>
-            <p>11.30am - 11.45am: Tea break </p>
-            <p>11.45am - 01.00pm: Session</p>
-            <p>01.00pm - 02.00pm: Lunch</p>
-            <p>02.00pm - 03.30pm: Session</p>
-            <p>03.30pm - 03.45pm: Tea break</p>
-            <p>03.45pm - 05.45pm: Session </p>
-            <p>05.45pm - 06.00pm: Wrap-up / closure</p>
-          </p>
-
-            <p class="heading-ttl small-head">Intended Audience</p>
-            <div class="block">
-              <p>
-                <strong>This course is intended for:</strong>
-              </p>
-              <ul>
-                <li>
-                  Developers who are responsible for developing deep learning
-                  applications
-                </li>
-                <li>
-                  Developers who want to understand concepts behind deep learning and
-                  how to implement a deep learning solution on AWS
-                </li>
-              </ul>
+          <div class="modal-body">
+            <div class="wid">
+              <div class="block">
+                <ul>
+                  <li>Attend hands on workshop lab on AWS services</li>
+                  <li>Morning Tea</li>
+                  <li>Afternoon Lunch</li>
+                  <li>USD 25 credit for AWS account will be provided by AWS</li>
+                  <li>Bring your own Laptop and Internet</li>
+                  <li>Workshop time: 8:00 am to 2:00 pm</li>
+                </ul>
+              </div>
             </div>
-            <p class="heading-ttl small-head">Course Objectives</p>
-            <div class="block">
-              <p><strong>In this course, you will learn how to: </strong></p>
-              <ul>
-                <li>
-                  Define machine learning (ML) and deep learning
-                </li>
-                <li>
-                  Identify the concepts in a deep learning ecosystem
-                </li>
-                <li>
-                  Leverage Amazon SageMaker and MXNet programming frameworks for deep
-                  learning workloads
-                </li>
-                <li>Fit AWS solutions for deep learning deployments</li>
-              </ul>
+          </div>
+          <div class="modal-footer clearTopBoarder">
+            <div class="row">
+              <div class="col-md-1">
+                
+              </div>
+              <div class="col-md-2">
+                
+              </div>
+              
             </div>
-            <p class="heading-ttl small-head">Prerequisites</p>
-            <div class="block">
-              <p>
-                <strong>We recommend that attendees of this course have the following
-                  prerequisites:</strong>
-              </p>
-              <ul>
-                <li>
-                  Basic understanding of machine learning processes
-                </li>
-                <li>
-                  Basic understanding of AWS core services like Amazon EC2 and knowledge
-                  of AWS SDKs
-                </li>
-                <li>
-                  Basic knowledge of a scripting language, such as Python
-                </li>
-              </ul>
-            </div>
-
-
-            <p class="heading-ttl small-head">Hands-on Activity</p>
-            <div class="block">
-              <p>
-                <strong>This course allows you to test new skills and apply knowledge to your
-                  working environment through a variety of practical exercises.
-                </strong>
-              </p>
-            </div>
-        </div>
-        <div>
-          <img src=""></img>
-        </div>
-
-          <div class="modal-footer">
-
-                  <br>
-                    <div class="row">
-                      <div class="col-md-1">
-
-                      </div>
-
-                      <div class="col-md-2">
-                        <img class="speakerImg" src="images\hemanth.jpg" alt="speaker img">
-
-                     </div>
-
-                    <div class="col-md-3">
-                        <div id="align">
-                        <h4 style="color:#ff9900">Technical Trainer</h4>
-                        <h4 ><a href="https://www.linkedin.com/in/hemant-gahankari-57a1909/" target="_blank">Hemanth Gahankari</a></h4>
-                        <p><a href="https://aws.amazon.com/aispl/" target="_blank">AISPL</a></p>
-                       </div>
-
-                      </div>
-
-
-                      <div class="col-md-2">
-                          <img class="speakerImg" src="images/Shinduri.png" alt="speaker img">
-                      </div>
-
-
-
-
-                    <div class="col-md-3">
-                      <div id="align1">
-                        <h4 style="color:#ff9900">Technical Trainer</h4>
-                        <h4 ><a href="https://www.linkedin.com/in/shinduri-ks-5142a7156/" target="_blank">Shinduri KS</a></h4>
-                        <p><a href="https://aws.amazon.com/aispl/" target="_blank">AISPL</a></p>
-                      </div>
-                       </div>
-                       </div>
-                       <br>
-                       <hr>
+            <hr>
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
-
         </div>
       </div>
     </div>
     <div class="section section-talk text-center" id="cfp">
       <div class="container">
-        <img src="images/bgda.svg">
+        
         <div class="cfp">
           <h4 class="main-heading-ttl">Submit a talk</h4>
-          <h4>Thank you for the overwhelming response. CFPs are now closed.</h4>
+          <img src="images/bgda.svg">
+          <div>&nbsp;</div>
+          
           <div class="buy-wrapper row flex-it">
             <div class="f1">
               <a class="button large submit-CFP-link">Submit CFP</a>
@@ -584,24 +524,24 @@
                 <div class="tr">
                   <div class="td idx">
                     <div>
-                      <p>8:00 AM - 9:15 AM</p>
+                      <p>8:00 AM - 9:30 AM</p>
                     </div>
                   </div>
                   <div class="td" colspan="4">
                     <div>
-                      <p>Check-In and Networking</p>
+                      <p>Registration and Networking</p>
                     </div>
                   </div>
                 </div>
                 <div class="tr">
                   <div class="td idx">
                     <div>
-                      <p>9:15 AM - 9:45 AM</p>
+                      <p>9:30 AM - 9:45 AM</p>
                     </div>
                   </div>
                   <div class="td" colspan="4">
                     <div>
-                      <p>Welcome</p>
+                      <p>welcome and Lighting the Lamp</p>
                     </div>
                   </div>
                 </div>
@@ -732,7 +672,7 @@
                 <div class="tr gap">
                   <div class="td idx">
                     <div>
-                      <p>2:450 PM - 3:00 PM</p>
+                      <p>2:45 PM - 3:00 PM</p>
                     </div>
                   </div>
                   <div class="td" colspan="4">
@@ -966,6 +906,18 @@
                         <b>Dhaval Nagar</b>
                         <br>
                         <small>Founder @ AppGambit</small>
+                        <br>
+                        <small>AWS SERVERLESS HERO</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="spk_itm flex-it">
+                    <div class="prod_im"><img src="images/speakers/ashish.jpg" alt=""></div>
+                    <div class="namenid">
+                      <p>
+                        <b>Ashish Patel</b>
+                        <br>
+                        <small>Enterprise Solutions Architect @ AWS</small>
                       </p>
                     </div>
                   </div>
@@ -1028,12 +980,6 @@
                     <i class="icon large ion-logo-linkedin"></i>Dimple Vaghela</a>
                 </div>
               </div>
-              <div class="person" data-fname="Ved" data-lname="Vaghela">
-                <div class="img">
-                  <a target="_blank" href="https://www.linkedin.com/in/ved-vaghela-9215b5225/">
-                    <i class="icon large ion-logo-linkedin"></i>Ved Vaghela</a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -1055,6 +1001,12 @@
                 <div class="img">
                   <a target="_blank" href="https://www.linkedin.com/in/keshav-04/">
                     <i class="icon large ion-logo-linkedin"></i>Keshav Kant Gupta</a>
+                </div>
+              </div>
+              <div class="person" data-fname="Ved" data-lname="Vaghela">
+                <div class="img">
+                  <a target="_blank" href="https://www.linkedin.com/in/ved-vaghela-9215b5225/">
+                    <i class="icon large ion-logo-linkedin"></i>Ved Vaghela</a>
                 </div>
               </div>
             </div>

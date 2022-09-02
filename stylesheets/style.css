@@ -745,6 +745,11 @@ ul.circle li {
   z-index: 9999;
   margin: 0;
 }
+
+.clearTopBoarder{
+  border-top: 0px ;
+}
+
 @media only screen and (min-width: 992px) {
   /* line 410, ../sass/shared/_site.scss */
   .modal#workshop_1 .modal-footer .row {
@@ -1493,7 +1498,7 @@ ul.circle li {
 }
 /* line 348, ../sass/shared/_home.scss */
 #page .section-3.inv {
-  background: transparent;
+  background: #fff;
   box-shadow: none;
 }
 @media only screen and (max-width: 991px) {
