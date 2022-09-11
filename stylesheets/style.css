@@ -2433,7 +2433,7 @@ ul.circle li {
   }
 }
 /* line 1181, ../sass/shared/_home.scss */
-#page .section-tickets .card button {
+#page .section-tickets .card .details button {
   position: absolute;
   left: 0;
   right: 0;
@@ -2446,9 +2446,19 @@ ul.circle li {
   justify-content: center;
   line-height: normal;
 }
+#page .section-tickets .card .sold button {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #FF9900;
+  border: 0;
+  color: #fff;
+}
+
 @media only screen and (max-width: 991px) {
   /* line 1181, ../sass/shared/_home.scss */
-  #page .section-tickets .card button {
+  #page .section-tickets .card .details button {
     position: static;
     height: 35px;
     border-radius: 5px;
