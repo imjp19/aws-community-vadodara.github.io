@@ -1963,6 +1963,10 @@ ul.circle li {
   background-image: url(../images/spons/AV-Devs-logo.png);
 }
 
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).aecor {
+  background-image: url(../images/spons/aecor-logo.jpg);
+}
+
 @media only screen and (min-width: 992px) {
   /* line 776, ../sass/shared/_home.scss */
   #page .section-5 .sponsors .cats .flex-it .f1:nth-child(6n) ~ .f1 {
