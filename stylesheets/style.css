@@ -1971,6 +1971,10 @@ ul.circle li {
   background-image: url(../images/spons/wiser.png);
 }
 
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).cloudkida {
+  background-image: url(../images/spons/cloudkida.png);
+}
+
 @media only screen and (min-width: 992px) {
   /* line 776, ../sass/shared/_home.scss */
   #page .section-5 .sponsors .cats .flex-it .f1:nth-child(6n) ~ .f1 {
@@ -2282,6 +2286,30 @@ ul.circle li {
 
 #page .section-6 .volunteers .vl-i .person[data-fname="Adit"] .img {
   background-image: url(../images/vols/adi.jpeg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Sattyam"] .img {
+  background-image: url(../images/vols/sattyam.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Akash"] .img {
+  background-image: url(../images/vols/akash.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Smit"] .img {
+  background-image: url(../images/vols/smit.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Jay"] .img {
+  background-image: url(../images/vols/jay.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Nilay"] .img {
+  background-image: url(../images/vols/nilay.jpeg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Ratan"] .img {
+  background-image: url(../images/vols/ratan.jpeg);
 }
 
 /* line 1056, ../sass/shared/_home.scss */
