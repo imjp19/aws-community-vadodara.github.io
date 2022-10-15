@@ -1975,6 +1975,14 @@ ul.circle li {
   background-image: url(../images/spons/cloudkida.png);
 }
 
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).nivida {
+  background-image: url(../images/spons/nivida.png);
+}
+
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).ecs {
+  background-image: url(../images/spons/ecs.jpeg);
+}
+
 @media only screen and (min-width: 992px) {
   /* line 776, ../sass/shared/_home.scss */
   #page .section-5 .sponsors .cats .flex-it .f1:nth-child(6n) ~ .f1 {
@@ -2310,6 +2318,10 @@ ul.circle li {
 
 #page .section-6 .volunteers .vl-i .person[data-fname="Ratan"] .img {
   background-image: url(../images/vols/ratan.jpeg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Kishor"] .img {
+  background-image: url(../images/vols/kishor-mistry.jpeg);
 }
 
 /* line 1056, ../sass/shared/_home.scss */
