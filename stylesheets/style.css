@@ -1983,6 +1983,22 @@ ul.circle li {
   background-image: url(../images/spons/ecs.jpeg);
 }
 
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).cloud-tech {
+  background-image: url(../images/spons/cloud-tech.jpeg);
+}
+
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).ahmedabad {
+  background-image: url(../images/spons/aws-user-group-ahmedabad.png);
+}
+
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).surat {
+  background-image: url(../images/spons/aws-user-group-surat.png);
+}
+
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).crayon {
+  background-image: url(../images/spons/crayon.jpg);
+}
+
 @media only screen and (min-width: 992px) {
   /* line 776, ../sass/shared/_home.scss */
   #page .section-5 .sponsors .cats .flex-it .f1:nth-child(6n) ~ .f1 {
