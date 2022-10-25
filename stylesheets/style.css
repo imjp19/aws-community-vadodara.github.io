@@ -1996,11 +1996,18 @@ ul.circle li {
 }
 
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).crayon {
-  background-image: url(../images/spons/crayon.jpg);
+  background-image: url(../images/spons/crayon.png);
+  background-size: 100%;
 }
 
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).intuitive {
   background-image: url(../images/spons/intuitive.jpeg);
+  background-size: 85%;
+}
+
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).coralogix {
+  background-image: url(../images/spons/coralogix.jpg);
+  background-size: 85%;
 }
 
 @media only screen and (min-width: 992px) {
