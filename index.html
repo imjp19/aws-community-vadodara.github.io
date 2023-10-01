@@ -284,7 +284,7 @@
               <h4 class="heading-ttl">Conference</h4>
               <div class="bg_img"></div>
               <h4 class="card-title text-muted text-uppercase text-center">Super Early Bird</h4>
-              <h2 class="card-price text-center">Coming soon..</h2>
+              <h2 class="card-price text-center">&#8377; 500</h2>
               <hr>
               <ul class="fa-ul text-left">
                 <li><span class="fa-li"><i class="fa fa-check"></i></span>Gives you access to conference on 4th
@@ -302,7 +302,7 @@
               </ul>
               <hr>
               <div class="sold text-center">
-                <button type="button" disabled="" class="btn buy-ticket-link" data-bs-toggle="modal">Coming Soon</button>
+                <button type="button" class="btn buy-ticket-link" data-bs-toggle="modal">Buy Now</button>
               </div>
 
             </div>
@@ -312,7 +312,7 @@
               <h4 class="heading-ttl">Conference</h4>
               <div class="bg_img"></div>
               <h4 class="card-title text-muted text-uppercase text-center"> Early Bird</h4>
-              <h2 class="card-price text-center">Coming soon..</h2>
+              <h2 class="card-price text-center">&#8377; 700</h2>
               <hr>
               <ul class="fa-ul text-left">
                 <li><span class="fa-li"><i class="fa fa-check"></i></span>Gives you access to conference on 4th
@@ -330,7 +330,7 @@
               </ul>
               <hr>
               <div class="sold text-center">
-                <button type="button" disabled="" class="btn buy-ticket-link" data-bs-toggle="modal">Coming Soon</button>
+                <button type="button" class="btn buy-ticket-link" data-bs-toggle="modal">Buy Now</button>
               </div>
             </div>
           </div>
@@ -340,7 +340,7 @@
               <h4 class="heading-ttl">Conference</h4>
               <div class="bg_img"></div>
               <h4 class="card-title text-muted text-uppercase text-center">Regular</h4>
-              <h2 class="card-price text-center">Coming soon..</h2>
+              <h2 class="card-price text-center">&#8377; 900</h2>
               <hr>
               <ul class="fa-ul text-left">
                 <li><span class="fa-li"><i class="fa fa-check"></i></span>Gives you access to conference on 4th November, 2023</li>
@@ -355,7 +355,7 @@
               </ul>
               <hr>
               <div class="sold text-center">
-                <button type="button" disabled="" class="btn buy-ticket-link" data-bs-toggle="modal">Coming Soon</button>
+                <button type="button" class="btn buy-ticket-link" data-bs-toggle="modal">Buy Now</button>
               </div>
             </div>
           </div>
@@ -365,7 +365,7 @@
               <h4 class="heading-ttl">conference</h4>
               <div class="bg_img"></div>
               <h4 class="card-title text-muted text-uppercase text-center">Golden Ticket!</h4>
-              <h2 class="card-price text-center">Coming soon..</h2>
+              <h2 class="card-price text-center">&#8377; 2500</h2>
               <hr>
               <ul class="fa-ul text-left">
                 <li><span class="fa-li"><i class="fa fa-check"></i></span>Elevate your experience and support the community as an individual sponsor!</li>
@@ -384,7 +384,7 @@
               </ul>
               <hr>
               <div class="sold text-center">
-                <button type="button" disabled="" class="btn buy-ticket-link" data-bs-toggle="modal">Coming Soon</button>
+                <button id="2500" type="button" class="btn buy-ticket-link" data-bs-toggle="modal">Buy Now</button>
               </div>
              
               <!--
@@ -450,7 +450,7 @@
           
           <div class="buy-wrapper row flex-it">
             <div class="f1">
-              <a class="button large submit-CFP-link disabled">Opening Soon...</a>
+              <a class="button large submit-CFP-link">Apply CFP</a>
             </div>
           </div>
         </div>
@@ -1265,9 +1265,9 @@
   <script>
     $(".buy-ticket-link").on("click", () => {
       checkForUtmAvilableOrNot(decodeURIComponent(location.href)).then((formResolve) => {
-        window.open("https://konfhub.com/acdv?" + formResolve, "_blank");
+        window.open("https://konfhub.com/communityday-awsugvad?" + formResolve, "_blank");
       }).catch((fromReject) => {
-        window.open("https://konfhub.com/acdv", "_blank");
+        window.open("https://konfhub.com/communityday-awsugvad", "_blank");
       });
     });
 
