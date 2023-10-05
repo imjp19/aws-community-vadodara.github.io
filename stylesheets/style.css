@@ -2010,6 +2010,10 @@ ul.circle li {
   background-size: 85%;
 }
 
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).rezoomex {
+  background-image: url(../images/spons/rezoomex-logo.png);
+  background-size: 85%;
+}
 @media only screen and (min-width: 992px) {
   /* line 776, ../sass/shared/_home.scss */
   #page .section-5 .sponsors .cats .flex-it .f1:nth-child(6n) ~ .f1 {
