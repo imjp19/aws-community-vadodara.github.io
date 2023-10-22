@@ -17,18 +17,18 @@ $(function() {
         .addClass("active")
         .siblings()
         .removeClass("active");
-      var latt = parseFloat($(this).attr("data-lat"));
-      var lngg = parseFloat($(this).attr("data-lng"));
-      var labb = $(this).attr("data-label");
-      console.log(latt + " - " + lngg);
-      setCoords(latt, lngg, labb);
+      // var latt = parseFloat($(this).attr("data-lat"));
+      // var lngg = parseFloat($(this).attr("data-lng"));
+      // var labb = $(this).attr("data-label");
+      // console.log(latt + " - " + lngg);
+      // setCoords(latt, lngg, labb);
     });
     $(document).on("click", "#toggle", function() {
       $(this).toggleClass("on");
       $("#nav-bar").toggleClass("active");
     });
     $("#link").click(function() {
-      var src = "https://www.youtube.com/embed/t08KFuSgUZE?&autoplay=1&mute=1";
+      var src = "https://www.youtube.com/embed/MXzHAdV3q6Y?&autoplay=1&mute=1";
       $("#myModal").modal("show");
       $("#myModal iframe").attr("src", src);
     });
